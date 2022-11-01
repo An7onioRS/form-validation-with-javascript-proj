@@ -15,31 +15,33 @@
             
         </div>
         <form id="form">
-            <title>Get Started</title>
+            <div class="title">Get Started</div>
             <!-- Username Input -->
             <div>
                 <label for="username">Name</label>
                 <i class="fa-solid fa-user"></i>
-                <input type="text" name="username" id="username">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="far fa-check-circle"></i>
-                    
+                <input type="text" name="username" id="username" placeholder="Joe Doe">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
             </div>
             <!-- Email Input -->
             <div>
                 <label for="email">Email</label>
                 <i class="far fa-envelope"></i>
-                <input type="email" name="email" id="email">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="far fa-check-circle"></i>
+                <input type="email" name="email" id="email" placeholder="joedoe@example.com">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
             </div>
             <!-- Password Input -->
             <div>
                 <label for="password">Password</label>
                 <i class="fas fa-lock"></i>
-                <input type="password" name="password" id="password">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="far fa-check-circle"></i>
+                <input type="password" name="password" id="password" placeholder="Choose a strong passowrd">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
             </div>
             <button type="submit" id="submit">Submit</button>
         </form>
