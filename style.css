@@ -55,8 +55,9 @@ form div i {
 .success-icon, 
 .failure-icon {
     right: 0;
-    top: 33px;
+    top: 30px;
     opacity: 0;
+    padding-top: 5px;
 }
 
 .success-icon {
@@ -66,8 +67,10 @@ form div i {
 .failure-icon,
 .error {
     color: #e22f2f;
+}
+
+.error {
     font-size: 0.8rem;
-    padding-top: 5px;
 }
 
 /* style for submit button */
