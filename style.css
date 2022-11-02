@@ -181,3 +181,29 @@ form button:hover {
     transition: all 0.5s;
 }
 
+/* style media query */
+
+@media (max-width:900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container > * {
+        width: 100%;
+    }
+
+    .btn {
+        flex-direction: column;
+    }
+
+    .image {
+        height: 70vh;
+    }
+}
+
+@media (max-width:425px) {
+    #form {
+        padding: 20px;
+    }
+}
+
